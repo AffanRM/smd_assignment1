@@ -10,4 +10,6 @@
     <color name="maroon_dark">#642B2B</color>
     <color name="hint_text_color">#CCCCCC</color>
     <color name="button_background_transparent">#40FFFFFF</color>
+
+    <color name="light_gray_border">#E0E0E0</color>
 </resources>

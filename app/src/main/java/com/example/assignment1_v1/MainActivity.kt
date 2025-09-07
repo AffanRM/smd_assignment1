@@ -9,6 +9,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
+import android.widget.Button
+
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,6 +29,16 @@ class MainActivity : AppCompatActivity() {
             // 3. Create an explicit intent to navigate to SignupActivity
             val intent = Intent(this, SignupActivity::class.java)
 
+            startActivity(intent)
+        }
+
+        // To move to the detailed login view
+        val loginButton = findViewById<Button>(R.id.login_button)
+
+        // Set a click listener
+        loginButton.setOnClickListener {
+            // Create explicit intent
+            val intent = Intent(this, DetailedLoginActivity::class.java)
             startActivity(intent)
         }
 

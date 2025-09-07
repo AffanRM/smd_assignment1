@@ -20,4 +20,11 @@
     <string name="create_an_account">Create an Account</string>
     <string name="camera_icon_desc">Upload profile picture</string>
     <string name="back_arrow_desc">Go back</string>
+
+    <string name="hint_login_username">asad_khasanov</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="or_separator">OR</string>
+    <string name="no_account">Don\'t have an account?</string>
+
 </resources>
