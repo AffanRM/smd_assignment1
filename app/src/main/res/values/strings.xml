@@ -27,4 +27,17 @@
     <string name="or_separator">OR</string>
     <string name="no_account">Don\'t have an account?</string>
 
+    <string name="your_story">Your Story</string>
+    <string name="sample_username_1">karennne</string>
+    <string name="sample_username_2">zackjohn</string>
+    <string name="post_user_name">joshua_l</string>
+    <string name="post_location">Tokyo, Japan</string>
+    <string name="liked_by">Liked by</string>
+    <string name="sample_liker">craig_love</string>
+    <string name="and">and</string>
+    <string name="others">others</string>
+    <string name="sample_caption">The game in Japan was amazing and I want to share some photos</string>
+
+    <string name="search">Search</string>
+
 </resources>

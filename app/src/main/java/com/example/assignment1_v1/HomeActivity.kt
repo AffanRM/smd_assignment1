@@ -1,0 +1,25 @@
+package com.example.assignment1_v1
+
+import android.content.Intent
+import android.os.Bundle
+import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
+import android.widget.ImageView
+class HomeActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_home) // Same as xml file name
+
+        // Find the search icon using its ID from the included layout
+        val searchIcon: ImageView = findViewById(R.id.search_icon)
+
+        // Set an OnClickListener on the search icon
+        searchIcon.setOnClickListener {
+            // Create the explicit intent to open the new activity
+            val intent = Intent(this, SearchMain::class.java)
+            startActivity(intent)
+        }
+
+
+    }
+}

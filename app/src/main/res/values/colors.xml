@@ -12,4 +12,6 @@
     <color name="button_background_transparent">#40FFFFFF</color>
 
     <color name="light_gray_border">#E0E0E0</color>
+
+    <color name="story_ring">#C13584</color>
 </resources>
