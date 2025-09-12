@@ -20,6 +20,12 @@ class HomeActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val dmIcon: ImageView = findViewById(R.id.dm_icon)
+        dmIcon.setOnClickListener {
+            val intent = Intent(this, DmActivity::class.java)
+            startActivity(intent)
+        }
+
 
     }
 }

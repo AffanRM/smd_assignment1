@@ -24,6 +24,8 @@
         <activity android:name=".DetailedLoginActivity" />
         <activity android:name=".HomeActivity" />
         <activity android:name=".SearchMain" />
+        <activity android:name=".SearchTopActivity"/>
+        <activity android:name=".DmActivity"/>
     </application>
 
 </manifest>

@@ -1,0 +1,20 @@
+package com.example.assignment1_v1
+
+import android.content.Intent
+import android.os.Bundle
+import android.widget.ImageView
+import androidx.appcompat.app.AppCompatActivity
+
+class DmActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.dm_main) // Same as xml file name
+
+        val backIcon: ImageView = findViewById(R.id.back_arrow)
+        backIcon.setOnClickListener {
+            val intent = Intent(this, HomeActivity::class.java)
+            startActivity(intent)
+        }
+
+    }
+}
