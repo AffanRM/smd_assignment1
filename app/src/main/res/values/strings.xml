@@ -40,4 +40,13 @@
 
     <string name="search">Search</string>
 
+    <string name="following1">karenme liked 3 posts. 3h</string>
+    <string name="following2">kiero_d, zackjohn  and craig_love liked joshua_l photo. 3h</string>
+    <string name="following3">kiero_d started following craig_love. 3h</string>
+    <string name="following4">craig_love liked 8 posts. 3h</string>
+    <string name="following5">maxjacobson and zackjohn liked mils_potter\'s post. 3h</string>
+    <string name="following6">maxjacobson and craig_love liked martini_rond\'s post. 3h</string>
+    <string name="following7">karenme liked martini_rond\'s comment: @martini_rond Nice! 3h</string>
+    <string name="following8">maxjacobson liked 3 posts. 3h</string>
+
 </resources>

@@ -40,7 +40,8 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="24dp"
-            android:src="@drawable/like2" />
+            android:src="@drawable/heart_full"
+            app:tint="@color/maroon_primary" />
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/profile_icon"
@@ -50,6 +51,7 @@
             android:src="@drawable/giyuu_1"
             android:layout_margin="4dp"
             android:scaleType="centerCrop" />
+
 
     </LinearLayout>
 

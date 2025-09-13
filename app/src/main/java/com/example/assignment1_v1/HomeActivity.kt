@@ -26,6 +26,12 @@ class HomeActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val likeIcon: ImageView = findViewById(R.id.like_icon)
+        likeIcon.setOnClickListener {
+            val intent = Intent(this, FollowingActivity::class.java)
+            startActivity(intent)
+        }
+
 
     }
 }
