@@ -26,6 +26,7 @@
         <activity android:name=".SearchMain" />
         <activity android:name=".SearchTopActivity"/>
         <activity android:name=".DmActivity"/>
+        <activity android:name=".MessageActivity"/>
     </application>
 
 </manifest>

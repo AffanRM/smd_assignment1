@@ -3,23 +3,16 @@ package com.example.assignment1_v1
 import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageView
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
-class DmActivity : AppCompatActivity() {
+class MessageActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.dm_main) // Same as xml file name
-
-        val messageLink: TextView = findViewById(R.id.open_message)
-        messageLink.setOnClickListener {
-            val intent = Intent(this, MessageActivity::class.java)
-            startActivity(intent)
-        }
+        setContentView(R.layout.dm_message) // Same as xml file name
 
         val backIcon: ImageView = findViewById(R.id.back_arrow)
         backIcon.setOnClickListener {
-            val intent = Intent(this, HomeActivity::class.java)
+            val intent = Intent(this, DmActivity::class.java)
             startActivity(intent)
         }
 
