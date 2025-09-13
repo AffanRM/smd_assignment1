@@ -32,6 +32,11 @@ class HomeActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val profileIcon: de.hdodenhof.circleimageview.CircleImageView = findViewById(R.id.profile_icon)
+        profileIcon.setOnClickListener {
+            val intent = Intent(this, ProfileActivity::class.java)
+            startActivity(intent)
+        }
 
     }
 }

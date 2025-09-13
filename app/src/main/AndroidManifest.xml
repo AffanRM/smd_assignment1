@@ -38,6 +38,7 @@
         <activity android:name=".VideoCallActivity"/>
         <activity android:name=".FollowingActivity"/>
         <activity android:name=".YouActivity"/>
+        <activity android:name=".ProfileActivity"/>
     </application>
 
 </manifest>
