@@ -19,4 +19,7 @@
     <color name="gray_3">#808080</color>
     <color name="background_gray">#F5F5F5</color>
     <color name="text_gray">#999999</color>
+
+    <color name="following_color">#262626</color>
+    <color name="you_color">#8E8E8E</color>
 </resources>

@@ -16,5 +16,11 @@ class MessageActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val videoIcon: ImageView = findViewById(R.id.video_call)
+        videoIcon.setOnClickListener {
+            val intent = Intent(this, VideoCallActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }
