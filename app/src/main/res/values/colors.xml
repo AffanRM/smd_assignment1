@@ -25,4 +25,10 @@
 
     <color name="message_color">#0095F6</color>
     <color name="follow_requests">#C8A2C8</color>
+
+    <color name="new_gray">#CCFFFFFF</color>
+    <color name="back_black">#99000000</color>
+    <color name="bar_orng">#7f5d49</color>
+
+    <color name="edit_profile_black">#666666</color>
 </resources>

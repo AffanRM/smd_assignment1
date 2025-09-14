@@ -39,6 +39,8 @@
         <activity android:name=".FollowingActivity"/>
         <activity android:name=".YouActivity"/>
         <activity android:name=".ProfileActivity"/>
+        <activity android:name=".StoryActivity"/>
+        <activity android:name=".EditProfileActivity"/>
     </application>
 
 </manifest>
