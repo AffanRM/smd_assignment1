@@ -45,6 +45,9 @@
         <activity android:name=".CameraActivity"/>
         <activity android:name=".ViewStoryActivity"/>
         <activity android:name=".CloseStoryActivity"/>
+        <activity android:name=".PublishStoryActivity"/>
+        <activity android:name=".CelebrityActivity"/>
+        <activity android:name=".CelebrityActivityFollow"/>
     </application>
 
 </manifest>

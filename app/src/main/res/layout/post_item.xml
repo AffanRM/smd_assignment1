@@ -16,7 +16,7 @@
             android:layout_width="32dp"
             android:layout_height="32dp"
             android:layout_centerVertical="true"
-            android:src="@drawable/giyuu_1"
+            android:src="@drawable/shinbou"
             app:shapeAppearanceOverlay="@style/CircularImage" />
 
         <LinearLayout

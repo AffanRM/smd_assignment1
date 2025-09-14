@@ -56,5 +56,11 @@ class HomeActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val postUserIcon: com.google.android.material.imageview.ShapeableImageView = findViewById(R.id.post_user_image)
+        postUserIcon.setOnClickListener {
+            val intent = Intent(this, CelebrityActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }
