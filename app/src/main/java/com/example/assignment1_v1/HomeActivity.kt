@@ -50,5 +50,11 @@ class HomeActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val viewImage: com.google.android.material.imageview.ShapeableImageView = findViewById(R.id.profile_image)
+        viewImage.setOnClickListener {
+            val intent = Intent(this, ViewStoryActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }

@@ -13,8 +13,8 @@ class ProfileActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_profile) // Same as xml file name
 
-        val profileIcon: de.hdodenhof.circleimageview.CircleImageView = findViewById(R.id.profile_image)
-        profileIcon.setOnClickListener {
+        val highlightIcon: de.hdodenhof.circleimageview.CircleImageView = findViewById(R.id.new_highlight)
+        highlightIcon.setOnClickListener {
             val intent = Intent(this, StoryActivity::class.java)
             startActivity(intent)
         }
@@ -22,6 +22,12 @@ class ProfileActivity : AppCompatActivity() {
         val menuIcon: TextView = findViewById(R.id.edit_profile_btn)
         menuIcon.setOnClickListener {
             val intent = Intent(this, EditProfileActivity::class.java)
+            startActivity(intent)
+        }
+
+        val profileIcon: de.hdodenhof.circleimageview.CircleImageView = findViewById(R.id.profile_image)
+        profileIcon.setOnClickListener {
+            val intent = Intent(this, CloseStoryActivity::class.java)
             startActivity(intent)
         }
 
