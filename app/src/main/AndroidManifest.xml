@@ -41,6 +41,8 @@
         <activity android:name=".ProfileActivity"/>
         <activity android:name=".StoryActivity"/>
         <activity android:name=".EditProfileActivity"/>
+        <activity android:name=".UploadActivity"/>
+        <activity android:name=".CameraActivity"/>
     </application>
 
 </manifest>

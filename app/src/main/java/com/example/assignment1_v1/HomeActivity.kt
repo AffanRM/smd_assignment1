@@ -38,5 +38,17 @@ class HomeActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val postIcon: ImageView = findViewById(R.id.post_icon)
+        postIcon.setOnClickListener {
+            val intent = Intent(this, UploadActivity::class.java)
+            startActivity(intent)
+        }
+
+        val postUserImage: ImageView = findViewById(R.id.camera_icon)
+        postUserImage.setOnClickListener {
+            val intent = Intent(this, CameraActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }
